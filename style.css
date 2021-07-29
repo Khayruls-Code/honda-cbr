@@ -148,3 +148,17 @@ header{
     color: rgba(153, 153, 153, 0.493) !important;
 }
 /* ----------contact------ */
+
+/* ---------sponsor------- */
+#sponsor{
+    padding: 100px 0;
+}
+#sponsor img{
+    cursor: pointer;
+    filter: grayscale(1);
+    transition: 0.3s ease filter;
+}
+#sponsor img:hover{
+    filter: grayscale(0);
+}
+/* ---------sponsor------- */
