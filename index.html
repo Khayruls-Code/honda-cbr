@@ -5,9 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Honda cbr Bootstrap</title>
 </head>
 <body>
-    <h1>Khayrul</h1>
+    <header class="position-relative">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top navigation">
+            <div class="container">
+              <a class="navbar-brand logo" href="#"><span>BEST</span>SHOP</a>
+              <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <ion-icon class="text-white display-4" name="menu"></ion-icon>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item mx-3">
+                    <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link text-white" href="#">Product</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link text-white" href="#">Shop</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link text-white" href="#">News</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link text-white" href="#">Contact</a>
+                  </li>
+                </ul>
+                <div class="common-btn">
+                    <a class="btn px-4" href="#">Login</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+          <!-- -----hero----- -->
+          <div id="hero" class="h-100 w-100 d-flex align-items-center justify-content-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-start justify-content-center flex-column mb-5">
+                        <p class="text-uppercase text-white small-title">Single Cylinder Engine</p>
+                        <h1 class="text-white main-title my-3">Honda CBR <span>300R</span></h1>
+                        <p class=" text-white-50 fw-lighter">If you’ve got a soft spot for sportbike design and Grand Prix stylings, then the 2021 Honda CBR300R is your sweet spot between form and function. It’s narrow, light, and a total blast to ride around town and on twisty back roads.</p>
+                        <div class="common-btn">
+                            <!-- Button trigger modal -->
+                            <a type="button" class="btn px-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                Purchase
+                            </a>
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Eid Dhamaka</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                    Eid Dhamaka Offer,Get 10% discount For Ease Product
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <div class="common-btn">
+                                        <a type="button" class="btn btn-primary modal-btn">Bye Bow</a>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="images/header-bike.png" alt="">
+                    </div>
+                </div>
+            </div>
+          </div>
+        </header>
+
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
